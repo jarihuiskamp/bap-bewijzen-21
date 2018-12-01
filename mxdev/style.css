@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Squada One;
+    src: url('SquadaOne-Regular.ttf');
+}
+
+body {
+    text-align: center;
+    background-color: #F4F4F4;
+}
+
+.h1Title {
+    background-color: #D4C3A2;
+    color: #634B35;
+    font-family: "Squada One";
+    padding-right: 1100px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.contacth1 {
+    font-family: "Squada One";
+    color: #634B35;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-column-gap: 25px;
+    grid-gap: 25px;
+    border-left: #F4F4F4 25px solid;
+    border-right: #F4F4F4 25px solid;
+}
+
+.boxes h2 {
+    font-family: "Squada One";
+    color: #634B35;
+}
+
+.boxes h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxes a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.boxes a:hover {
+    font-size: 1.2em;
+}
+
+.boxContent {
+    border-top: #FF9100 10px solid;
+    background-color: white;
+}
+
+.formText {
+    width: 22%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-top: #FF9100 10px solid;
+    border-left: #D4C3A2 0 solid;
+}
+
+.formEmail {
+    width: 44%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-top: #FF9100 10px solid;
+    border-left: #D4C3A2 0 solid;
+    margin-top: 10px;
+}
+
+.formTextarea {
+    width: 44%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-top: #FF9100 10px solid;
+    border-left: #D4C3A2 0 solid;
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+#button {
+    background-color: #FF9100;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.3em;
+}

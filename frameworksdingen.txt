@@ -1,0 +1,6 @@
+hond
+
+eigenschappen zijn:
+ras, grootte, leeftijd, geslacht
+
+Gedrag:
